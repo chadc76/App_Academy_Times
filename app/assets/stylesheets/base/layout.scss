@@ -128,3 +128,20 @@ hr {
 input[type="search"] {
 	padding: 5px;
 }
+
+/* 
+Fixed Header
+*/
+
+.fixed-header {
+  position: fixed;
+  width: 80%;
+  top: 0;
+  left: 140px;
+  padding: 0;
+  z-index: 2;
+  background: #fff;
+  backface-visibility: hidden;
+  padding-top: 0;
+  overflow: hidden;
+}
