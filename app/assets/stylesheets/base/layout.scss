@@ -50,3 +50,8 @@ hr {
 	height: 2px;
 	margin-bottom: 1px;
 }
+
+a:hover {
+  border-bottom:  1px solid black;
+  cursor: pointer;
+}

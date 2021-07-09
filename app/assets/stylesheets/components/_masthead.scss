@@ -24,6 +24,10 @@
 		color: $dark-gray;
 	}
 
+  li:first-of-type a {
+    font-weight: bold;
+  }
+
 	ul {
 		display: flex;
 	}
@@ -45,6 +49,10 @@
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
 	}
+
+  li:last-of-type {
+    border-right: none;
+  }
 
 	button {
 		background: none;
