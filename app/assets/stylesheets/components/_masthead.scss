@@ -83,3 +83,9 @@
 		border: none;
 	}
 }
+
+@media all and (max-width: 1000px) {
+  .language-nav{
+    display: none;
+  }
+}

@@ -23,3 +23,9 @@
 		background-color: $light-gray;
 	}
 }
+
+@media all and (max-width: 1000px) {
+  .sections-nav{
+    display: none;
+  }
+}
